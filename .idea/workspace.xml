@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cc90fa83-a51f-4471-bfc8-f935b8e98729" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/mq/MqConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/mq/MqProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/serializer/JodaDateTimeJsonDeserializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/serializer/JodaDateTimeJsonSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/service/CacheService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/service/Impl/CacheServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/util/CodeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../version2/miaosha/.idea/miaosha.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../version2/miaosha/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../html/createitem.html" beforeDir="false" afterPath="$PROJECT_DIR$/../html/createitem.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../html/getitem.html" beforeDir="false" afterPath="$PROJECT_DIR$/../html/getitem.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../html/getotp.html" beforeDir="false" afterPath="$PROJECT_DIR$/../html/getotp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../html/listitem.html" beforeDir="false" afterPath="$PROJECT_DIR$/../html/listitem.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../html/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../html/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../html/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/../html/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miaosha.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../miaosha.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/config/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/config/WebServerConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/config/WebServerConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/controller/ItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/error/EmBusinessError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/error/EmBusinessError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/service/Impl/ItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/service/Impl/ItemServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/service/Impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/service/Impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/service/Impl/PromoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/service/Impl/PromoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/service/Impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/service/Impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/service/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/service/ItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/service/PromoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/service/PromoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/service/model/OrderModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/service/model/OrderModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-generator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-generator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/miaoshaproject/config/RedisConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/miaoshaproject/config/RedisConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/miaoshaproject/config/WebServerConfiguration$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/miaoshaproject/config/WebServerConfiguration$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/miaoshaproject/controller/ItemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/miaoshaproject/controller/ItemController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/miaoshaproject/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/miaoshaproject/controller/OrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/miaoshaproject/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/miaoshaproject/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/miaoshaproject/error/EmBusinessError.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/miaoshaproject/error/EmBusinessError.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/miaoshaproject/service/Impl/ItemServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/miaoshaproject/service/Impl/ItemServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/miaoshaproject/service/Impl/OrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/miaoshaproject/service/Impl/OrderServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/miaoshaproject/service/Impl/PromoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/miaoshaproject/service/Impl/PromoServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/miaoshaproject/service/Impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/miaoshaproject/service/Impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/miaoshaproject/service/ItemService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/miaoshaproject/service/ItemService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/miaoshaproject/service/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/miaoshaproject/service/OrderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/miaoshaproject/service/PromoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/miaoshaproject/service/PromoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/miaoshaproject/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/miaoshaproject/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/miaoshaproject/service/model/OrderModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/miaoshaproject/service/model/OrderModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis-generator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis-generator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../version2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../version2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../version2/html/createitem.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../version2/html/createitem.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../version2/html/getitem.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../version2/html/getitem.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../version2/html/getotp.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../version2/html/getotp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../version2/html/listitem.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../version2/html/listitem.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../version2/html/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../version2/html/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../version2/html/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../version2/html/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../version2/miaosha/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../version2/miaosha/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../version2/miaosha/src/main/java/com/miaoshaproject/service/Impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../version2/miaosha/src/main/java/com/miaoshaproject/service/Impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../version2/miaosha/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../version2/miaosha/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../version2/miaosha/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../version2/miaosha/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../version2/miaosha/target/classes/com/miaoshaproject/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../version2/miaosha/target/classes/com/miaoshaproject/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../version2/miaosha/target/classes/com/miaoshaproject/service/Impl/OrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../version2/miaosha/target/classes/com/miaoshaproject/service/Impl/OrderServiceImpl.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1scUVL7t8oAxMcsgQyO3wFZGWIy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../htmlStable/getitem.html" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.miaoshaproject.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\files\javaStuff\java_projects\project_miaosha\miaoshaproject\version1\miaosha\src\main\java\com\miaoshaproject\util" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.miaoshaproject.App" />
+      <module name="miaosha" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.miaoshaproject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CodeUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.miaoshaproject.util.CodeUtil" />
+      <module name="miaosha" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.miaoshaproject.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.miaoshaproject.service.Impl.OrderServiceImpl" />
+      <module name="miaosha" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.miaoshaproject.service.Impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserController" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.miaoshaproject.controller.UserController" />
+      <module name="miaosha" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name=" [mybatis-generator:generate]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="mybatis-generator:generate" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="miaosha" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.miaoshaproject.App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="miaosha" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.31" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_miaosha" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51449" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.UserController" />
+      <item itemvalue="Application.App" />
+      <item itemvalue="Application.OrderServiceImpl" />
+      <item itemvalue="Application.CodeUtil" />
+      <item itemvalue="Maven. [mybatis-generator:generate]" />
+      <item itemvalue="Spring Boot.App" />
+      <item itemvalue="Tomcat Server.miaosha" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CodeUtil" />
+        <item itemvalue="Application.OrderServiceImpl" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cc90fa83-a51f-4471-bfc8-f935b8e98729" name="Default Changelist" comment="" />
+      <created>1621171393562</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621171393562</updated>
+      <workItem from="1621171397443" duration="2246000" />
+      <workItem from="1621251835564" duration="4863000" />
+      <workItem from="1621299920847" duration="18463000" />
+      <workItem from="1621508903896" duration="5274000" />
+      <workItem from="1621584879417" duration="17000" />
+      <workItem from="1621598782539" duration="6299000" />
+      <workItem from="1621650002138" duration="11000" />
+      <workItem from="1621684597206" duration="4512000" />
+      <workItem from="1621736302119" duration="23193000" />
+      <workItem from="1621816908257" duration="127000" />
+      <workItem from="1621835939854" duration="17556000" />
+      <workItem from="1621860093897" duration="11000" />
+      <workItem from="1621863633627" duration="88000" />
+      <workItem from="1621921272724" duration="25192000" />
+      <workItem from="1622003797840" duration="304000" />
+      <workItem from="1622009896540" duration="11878000" />
+      <workItem from="1622028462910" duration="24000" />
+      <workItem from="1622076385095" duration="6539000" />
+      <workItem from="1622084751602" duration="10320000" />
+      <workItem from="1622112651494" duration="193000" />
+      <workItem from="1622121016332" duration="21000" />
+      <workItem from="1622121050272" duration="23000" />
+      <workItem from="1622121129775" duration="570000" />
+      <workItem from="1622164608649" duration="787000" />
+      <workItem from="1622167917523" duration="887000" />
+      <workItem from="1622183898620" duration="2836000" />
+      <workItem from="1622208797740" duration="86000" />
+      <workItem from="1622255227887" duration="73000" />
+      <workItem from="1622341975631" duration="2031000" />
+      <workItem from="1622354099644" duration="2324000" />
+      <workItem from="1622362874754" duration="5279000" />
+      <workItem from="1622463693633" duration="3657000" />
+      <workItem from="1622506376280" duration="3675000" />
+      <workItem from="1622612019041" duration="13344000" />
+      <workItem from="1622768526880" duration="1508000" />
+      <workItem from="1622770566193" duration="430000" />
+      <workItem from="1622986552531" duration="722000" />
+      <workItem from="1623032621080" duration="13726000" />
+      <workItem from="1623055084970" duration="1379000" />
+      <workItem from="1623060176012" duration="34125000" />
+      <workItem from="1626681235033" duration="157000" />
+      <workItem from="1626681481282" duration="1366000" />
+      <workItem from="1626693517070" duration="54000" />
+      <workItem from="1636358212158" duration="97000" />
+      <workItem from="1636358663067" duration="2408000" />
+      <workItem from="1636415277867" duration="3869000" />
+      <workItem from="1636444481817" duration="1224000" />
+      <workItem from="1636785458961" duration="386000" />
+      <workItem from="1636785925502" duration="2892000" />
+      <workItem from="1636790180443" duration="93000" />
+      <workItem from="1636792191863" duration="745000" />
+      <workItem from="1636847902365" duration="4373000" />
+      <workItem from="1636941123660" duration="3375000" />
+      <workItem from="1637018985928" duration="262000" />
+      <workItem from="1637048809101" duration="1342000" />
+      <workItem from="1637308444010" duration="1869000" />
+      <workItem from="1637408976281" duration="3422000" />
+      <workItem from="1637540627072" duration="4201000" />
+      <workItem from="1637577870476" duration="618000" />
+      <workItem from="1637579325179" duration="1885000" />
+      <workItem from="1637823352068" duration="6098000" />
+      <workItem from="1637910025463" duration="5210000" />
+      <workItem from="1637972912580" duration="20023000" />
+      <workItem from="1638061715427" duration="5663000" />
+      <workItem from="1638080429959" duration="4523000" />
+      <workItem from="1638152712859" duration="2093000" />
+      <workItem from="1638341490988" duration="2975000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="371" y="138" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1637545061374">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="371" y="138" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1280.760@0.0.1280.760" timestamp="1637545061374" />
+    <state x="96" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1638000316839">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="96" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.760@0.0.1280.760" timestamp="1638000316839" />
+    <state x="446" y="89" key="#com.intellij.ide.util.MemberChooser" timestamp="1638069458512">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="446" y="89" key="#com.intellij.ide.util.MemberChooser/0.0.1280.760@0.0.1280.760" timestamp="1638069458512" />
+    <state x="429" y="270" width="421" height="224" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1636360769067">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="429" y="270" width="421" height="224" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.760@0.0.1280.760" timestamp="1636360769067" />
+    <state x="421" y="138" width="633" height="482" key="FileChooserDialogImpl" timestamp="1638086565458">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="421" y="138" width="633" height="482" key="FileChooserDialogImpl/0.0.1280.760@0.0.1280.760" timestamp="1638086565458" />
+    <state width="1238" height="119" key="GridCell.Tab.0.bottom" timestamp="1638088870537">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1238" height="119" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1638088870537" />
+    <state width="1238" height="119" key="GridCell.Tab.0.center" timestamp="1638088870536">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1238" height="119" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1638088870536" />
+    <state width="1238" height="119" key="GridCell.Tab.0.left" timestamp="1638088870536">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1238" height="119" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1638088870536" />
+    <state width="1238" height="119" key="GridCell.Tab.0.right" timestamp="1638088870536">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1238" height="119" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1638088870536" />
+    <state width="1238" height="190" key="GridCell.Tab.1.bottom" timestamp="1637932092121">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1238" height="190" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1637932092121" />
+    <state width="1238" height="190" key="GridCell.Tab.1.center" timestamp="1637932092121">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1238" height="190" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1637932092121" />
+    <state width="1238" height="190" key="GridCell.Tab.1.left" timestamp="1637932092121">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1238" height="190" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1637932092121" />
+    <state width="1238" height="190" key="GridCell.Tab.1.right" timestamp="1637932092121">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1238" height="190" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1637932092121" />
+    <state width="846" height="190" key="GridCell.Tab.2.bottom" timestamp="1636362794973">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="846" height="190" key="GridCell.Tab.2.bottom/0.0.1280.760@0.0.1280.760" timestamp="1636362794973" />
+    <state width="846" height="190" key="GridCell.Tab.2.center" timestamp="1636362794973">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="846" height="190" key="GridCell.Tab.2.center/0.0.1280.760@0.0.1280.760" timestamp="1636362794973" />
+    <state width="846" height="190" key="GridCell.Tab.2.left" timestamp="1636362794973">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="846" height="190" key="GridCell.Tab.2.left/0.0.1280.760@0.0.1280.760" timestamp="1636362794973" />
+    <state width="846" height="190" key="GridCell.Tab.2.right" timestamp="1636362794973">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="846" height="190" key="GridCell.Tab.2.right/0.0.1280.760@0.0.1280.760" timestamp="1636362794973" />
+    <state x="336" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1638434237873">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="336" y="208" key="com.intellij.ide.util.TipDialog/0.0.1280.760@0.0.1280.760" timestamp="1638434237873" />
+    <state x="6" y="84" key="new project wizard" timestamp="1636423942396">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="6" y="84" key="new project wizard/0.0.1280.760@0.0.1280.760" timestamp="1636423942396" />
+    <state x="299" y="172" key="run.anything.popup" timestamp="1637999417236">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="299" y="172" key="run.anything.popup/0.0.1280.760@0.0.1280.760" timestamp="1637999417236" />
+    <state x="320" y="99" width="672" height="678" key="search.everywhere.popup" timestamp="1638013462086">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="320" y="99" width="672" height="678" key="search.everywhere.popup/0.0.1280.760@0.0.1280.760" timestamp="1638013462086" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/miaoshaproject/service/Impl/UserServiceImpl.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/miaoshaproject/controller/UserController.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/miaoshaproject/service/Impl/PromoServiceImpl.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/miaoshaproject/dao/SequenceDOMapper.java</url>
+          <line>43</line>
+          <properties class="com.miaoshaproject.dao.SequenceDOMapper" method="updateByPrimaryKeySelective" />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
